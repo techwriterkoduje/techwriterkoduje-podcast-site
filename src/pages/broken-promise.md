@@ -171,7 +171,7 @@ the wrong tool. You **should** get support from either a dedicated doc tools
 team, or from software developers at your company. If you do not, it's an
 organizational issue and it would've been the same with a vendor. We've already
 covered this point in
-[Don't take shared ownership for granted](#don't-take-shared-ownership-for-granted).
+[Don't take shared ownership for granted](#dont-take-shared-ownership-for-granted).
 
 ## A fundamental conflict of interest
 
