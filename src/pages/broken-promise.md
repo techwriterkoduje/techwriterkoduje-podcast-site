@@ -96,7 +96,7 @@ The same cannot be said for vendor solutions. More often than not, learning
 resources and knowledge are delivered and controlled by the vendor, which can
 significantly reduce their variety and completeness.
 
-## Don't take shared ownership for granted {#don't-take-shared-ownership-for-granted}
+## Don't take shared ownership for granted
 
 Sarah is disappointed with docs as code because it doesn't deliver on its
 promise of shared ownership of documentation. In our opinion, it isn't the issue
