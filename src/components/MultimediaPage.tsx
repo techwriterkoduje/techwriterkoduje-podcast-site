@@ -4,6 +4,24 @@ import Heading1 from './Heading1';
 
 const multimediaItems: FeatureProps[] = [
   {
+    title:
+      'PRZEtłumacze #68 - Technical Writing: jak tworzyć i tłumaczyć dokumentację techniczną?',
+    description: (
+      <>
+        <p>
+          Nasz gościnny występ w podcaście "PRZEtłumacze", w którym opowiadamy o
+          technical writingu.
+        </p>
+      </>
+    ),
+    actionLinks: [
+      {
+        label: 'Posłuchaj',
+        to: 'https://open.spotify.com/episode/03DjM8wBoHa4Jt9W6APVT5?si=mi6wlk-SQXO9yC1ihSM9lA',
+      },
+    ],
+  },
+  {
     title: '#114: Technical writer (Porozmawiajmy o IT)',
     description: (
       <>
