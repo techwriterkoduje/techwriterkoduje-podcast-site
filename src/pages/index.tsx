@@ -3,6 +3,7 @@ import Container from '@mui/material/Container';
 import Layout from '@theme/Layout';
 import type { ReactNode } from 'react';
 import allEpisodeData from '../../all-episodes.json';
+import ConditionalLinkToEnglishPage from '../components/ConditionalLinkToEnglishPage';
 import ContactUs from '../components/HomePage/ContactUs';
 import HomeGridContainer from '../components/HomePage/HomeGridContainer';
 import Hosts from '../components/HomePage/Hosts';
@@ -18,6 +19,7 @@ export default function Home(): ReactNode {
     <Layout title={siteConfig.title} description={siteConfig.tagline}>
       <main>
         <Container>
+          <ConditionalLinkToEnglishPage />
           <HomeGridContainer>
             <ShowBanner />
           </HomeGridContainer>

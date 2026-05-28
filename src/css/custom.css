@@ -54,3 +54,8 @@
   border-top: 1px solid var(--ifm-color-primary);
   background-color: var(--ifm-navbar-background-color);
 }
+
+
+.impact_link {
+  color: var(--ifm-color-primary)
+}
