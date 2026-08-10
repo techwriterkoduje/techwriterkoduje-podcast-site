@@ -37,7 +37,7 @@ export default function ShoutOuts() {
     <PodcastCard>
       <SectionStack>
         <Typography variant="h2" textAlign="center" id="shout-outs">
-          Szanujemy i wspieramy
+          Szanuję i wspieram
         </Typography>
         <ImageList
           sx={{ width: '100%', justifyItems: 'center' }}
