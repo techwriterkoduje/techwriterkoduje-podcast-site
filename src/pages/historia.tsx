@@ -61,11 +61,15 @@ export default function Historia() {
                 </a>
                 . W tamtym czasie był on prowadzony przez dwóch panów - Michaela
                 Kennedy'ego i Briana Okkena. Ta formuła bardzo mi się spodobała
-                - dwóch ziomków, którzy są zajawieni tym samym rozmawiają sobie
-                swobodnie, ale jednocześnie rzeczowo o tematach, które ich
-                kręcą. Nie zastanawiając się długo, Pawła Kowaluka czy chciałby
-                odpalić ze mną podcast. Od razu się zgodził, co mnie bardzo
-                ucieszyło, i projekt "Tech Writer Koduje" ruszył pełną parą.
+                - dwóch ziomków, którzy są zajawieni tym samym, rozmawiają sobie
+                swobodnie, ale jednocześnie rzeczowo, o tematach, które ich
+                kręcą. Nie zastanawiając się długo, zapytałem{' '}
+                <a href="https://www.linkedin.com/in/pawel-kowaluk">
+                  Pawła Kowaluka
+                </a>
+                czy chciałby odpalić ze mną podcast. Od razu się zgodził, co
+                mnie bardzo ucieszyło, i projekt "Tech Writer Koduje" ruszył
+                pełną parą.
               </Typography>
 
               <Typography>
@@ -79,7 +83,7 @@ export default function Historia() {
               <Typography>
                 Po 7 latach (2019-2026) i 90 nagranych odcinkach, przyszedł czas
                 na nowy rozdział. Paweł postanowił odejść z projektu i oddać się
-                w pełni swojej pasji - rozwijaniu swojego warsztatu pisarskiego.
+                w pełni swojej pasji - rozwijaniu warsztatu pisarskiego.
                 Pożegnaliśmy się w przyjacielskiej atmosferze, a ja postanowiłem
                 kontynuować projekt samodzielnie.
               </Typography>
