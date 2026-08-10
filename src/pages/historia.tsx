@@ -66,7 +66,7 @@ export default function Historia() {
                 kręcą. Nie zastanawiając się długo, zapytałem{' '}
                 <a href="https://www.linkedin.com/in/pawel-kowaluk">
                   Pawła Kowaluka
-                </a>
+                </a>{' '}
                 czy chciałby odpalić ze mną podcast. Od razu się zgodził, co
                 mnie bardzo ucieszyło, i projekt "Tech Writer Koduje" ruszył
                 pełną parą.
