@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <Layout
       title="Kontakt"
-      description="Skontaktuj się z twórcami podcastu Tech Writer koduje"
+      description="Skontaktuj się z prowadzącym podcastu Tech Writer Koduje"
     >
       <ContactPage />
     </Layout>

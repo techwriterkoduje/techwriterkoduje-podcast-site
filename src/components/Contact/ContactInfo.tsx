@@ -15,9 +15,9 @@ export default function ContactInfo() {
         <Grid size={{ sm: 12, md: 6 }}>
           <Stack spacing={4}>
             <Typography>
-              Chcesz nam coś przekazać? Masz pytanie lub sugestię? Może masz
-              pomysł na odcinek podcastu albo chcesz być gościem naszej audycji?
-              Po prostu napisz do nas.
+              Masz pytanie albo sugestię? Masz pomysł na odcinek podcastu albo chcesz w nim wystąpić?
+              A może chcesz porozmawiać o potencjalnej współpracy?
+              Po prostu napisz do mnie.
             </Typography>
           </Stack>
         </Grid>
@@ -34,7 +34,7 @@ export default function ContactInfo() {
               variant="outlined"
               href=""
             >
-              skopiuj adres do schowka
+              Skopiuj adres do schowka
             </CopyToClipboardButton>
           </Stack>
         </Grid>
