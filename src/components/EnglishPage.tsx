@@ -67,20 +67,20 @@ links.sort((a, b) => a.label.localeCompare(b.label));
 export default function EnglishPage() {
   return (
     <PageContainer>
-      <Heading1>Tech Writer Who Codes</Heading1>
+      <Heading1>Coding Tech Writer Who Codes</Heading1>
       <Typography>
-        We work in tech docs and, from the very start, we've been into the
-        technical side of it. That's why we write scripts, configure tools,
-        deploy websites, and automate boring tasks. We look for solutions which
-        will help tech writers focus on what matters.
+        For 8 years, I worked as a tech writer in small and large companies
+        developing software. Over that time, I gradually discovered the world of
+        coding, which led me to become a programmer in the documentation team.
       </Typography>
       <Typography>
-        We spend our days figuring out how the world of docs can benefit from
-        the tech used in software development.
+        In my day-to-day work, I create tools and solutions that make it easier
+        for technical content authors to do their jobs, while helping users find
+        the content they need quickly when they need it.
       </Typography>
       <HostPics hosts={hosts} size="medium" />
       <Typography>
-        Tech Writer Koduje (Tech Writer Who Codes) is a podcast in Polish, but
+        Tech Writer Koduje (Tech Writer Who Codes) is a project in Polish, but
         there are a few things available in English.
       </Typography>
       <LinkList links={links} />

@@ -1,13 +1,13 @@
 import React from 'react';
 import Chip from '@mui/material/Chip';
-import { StopwatchResult } from 'react-timer-hook';
+import { useStopwatch } from 'react-timer-hook';
 
 function format(input: number) {
   return input.toLocaleString('en-US', { minimumIntegerDigits: 2 });
 }
 
 type StopWatchProps = {
-  stopwatch: StopwatchResult;
+  stopwatch: ReturnType<typeof useStopwatch>;
 };
 
 export default function StopWatch({ stopwatch }: StopWatchProps) {

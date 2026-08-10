@@ -82,17 +82,17 @@ const config: Config = {
       items: [
         {
           to: 'episode-list',
-          label: 'Odcinki',
+          label: 'Podcast',
           position: 'left',
         },
         {
           to: 'read',
-          label: 'Czytelnia',
+          label: 'Artykuły',
           position: 'left',
         },
         {
           to: 'multimedia',
-          label: 'Multimedia',
+          label: 'Wystąpienia',
           position: 'left',
         },
         {
@@ -101,13 +101,18 @@ const config: Config = {
           position: 'left',
         },
         {
-          to: 'focusgrid',
-          label: 'Focus Grid',
+          to: 'historia',
+          label: 'Historia',
           position: 'left',
         },
         {
           to: 'contact',
           label: 'Kontakt',
+          position: 'left',
+        },
+        {
+          to: 'focusgrid',
+          label: 'Focus Grid',
           position: 'left',
         },
         {

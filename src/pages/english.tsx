@@ -4,8 +4,8 @@ import EnglishPage from '../components/EnglishPage';
 export default function English() {
   return (
     <Layout
-      title="Focus Grid"
-      description="Aplikacja do ćwiczenia koncentracji"
+      title="English"
+      description="Info about the project in English"
     >
       <EnglishPage />
     </Layout>

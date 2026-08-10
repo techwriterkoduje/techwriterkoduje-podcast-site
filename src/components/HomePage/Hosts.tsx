@@ -9,20 +9,16 @@ export type Host = {
   img: string;
   alt: string;
   linkedIn: string;
+  gitHub: string;
 };
 
 export const hosts: Host[] = [
   {
     name: 'Michał Skowron',
-    img: 'michal-skowron.png',
+    img: 'badge-photo-8bit-pixel-animated.gif',
     alt: 'Zdjęcie Michała Skowrona',
     linkedIn: 'https://www.linkedin.com/in/michalskowron/',
-  },
-  {
-    name: 'Paweł Kowaluk',
-    img: 'pawel-kowaluk.png',
-    alt: 'Zdjęcie Pawła Kowaluka',
-    linkedIn: 'https://www.linkedin.com/in/pawel-kowaluk/',
+    gitHub: 'https://github.com/docdeveloper',
   },
 ];
 
@@ -39,15 +35,15 @@ export default function Hosts({ size, overrideLink }: HostsProps) {
           Prowadzący
         </Typography>
         <Typography>
-          Od kilku lat zajmujemy się zawodowo dokumentacją do oprogramowania.
-          Właściwie od samego początku, techniczna strona tworzenia dokumentacji
-          była dla nas najbardziej interesująca. Dlatego uwielbiamy pisać
-          skrypty, konfigurować narzędzia i automatyzować. Szukamy rozwiązań,
-          które pozwolą Tech Writerom skupić się na tym co ważne.
+          Przez 8 lat pracowałem jako tech writer, w małych i dużych firmach,
+          zajmujących się wytwarzaniem oprogramowania. Przez ten czas powoli
+          odkrywałem świat kodowania co sprawiło, że zostałem programistą w
+          dziale dokumentacji.
         </Typography>
         <Typography>
-          Na co dzień zastanawiamy się jak świat dokumentacji może czerpać
-          korzyści z technologii, których używa się w świecie IT.
+          W codziennej pracy tworzę narzędzia i rozwiązania, które ułatwiają
+          pracę autorom treści technicznych, a odbiorcom tych treści pozwalają
+          dotrzeć do nich szybko, wtedy kiedy ich potrzebują.
         </Typography>
         <HostPics hosts={hosts} overrideLink={overrideLink} size={size} />
       </SectionStack>

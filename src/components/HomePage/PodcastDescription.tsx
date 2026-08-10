@@ -14,14 +14,12 @@ export default function PodcastDescription() {
         component="h1"
         sx={{ fontSize: '40px', fontWeight: 700, lineHeight: 1.1 }}
       >
-        Podcast o technicznej stronie tworzenia dokumentacji w IT
+        Dokumentacja w kodowaniu, kodowanie w dokumentacji
       </Typography>
       <Typography sx={{ fontSize: '18px', padding: '10px 0' }}>
-        Skupiamy się na tym jak Tech Writer może wpasować się w środowisko
-        programistów zarówno pod kątem sposobu pracy jak i używanych
-        technologii, narzędzi i rozwiązań. Staramy się też pokazać, że praca
-        Tech Writera może być ciekawa i rozwijająca pod kątem umiejętności
-        technicznych.
+        Projekt, który łączy światy dokumentacji i kodowania. Szukam obszarów
+        IT, w których programiści i tech writerzy mogą współpracować i uczyć się
+        od siebie.
       </Typography>
     </Stack>
   );

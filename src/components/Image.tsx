@@ -1,5 +1,8 @@
-type ImageProps = React.ImgHTMLAttributes<HTMLImageElement>;
+type ImageProps = React.ImgHTMLAttributes<HTMLImageElement> & {
+  fill?: boolean;
+};
 
 export default function Image(props: ImageProps) {
-  return <img {...props} alt={props.alt || ''} src={`img/${props.src}`} />;
+  const { fill: _fill, ...imageProps } = props;
+  return <img {...imageProps} alt={imageProps.alt || ''} src={`img/${imageProps.src}`} />;
 }

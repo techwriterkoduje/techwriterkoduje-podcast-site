@@ -1,4 +1,5 @@
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
@@ -73,6 +74,14 @@ export default function HostPics({ hosts, overrideLink, size }: HostPicsProps) {
                 sx={{ textTransform: 'none', fontSize: size }}
               >
                 {host.name}
+              </Button>
+              <Button
+                href={host.gitHub}
+                target="_blank"
+                startIcon={<GitHubIcon />}
+                sx={{ textTransform: 'none', fontSize: size }}
+              >
+                Doc Developer
               </Button>
             </>
           )}

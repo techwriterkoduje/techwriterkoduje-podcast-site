@@ -1,5 +1,4 @@
-import Stack from '@mui/material/Stack';
-import { StackProps } from '@mui/system';
+import Stack, { StackProps } from '@mui/material/Stack';
 
 export default function SectionStack({ children, ...otherProps }: StackProps) {
   return (
