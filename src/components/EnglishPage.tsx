@@ -67,7 +67,7 @@ links.sort((a, b) => a.label.localeCompare(b.label));
 export default function EnglishPage() {
   return (
     <PageContainer>
-      <Heading1>Coding Tech Writer Who Codes</Heading1>
+      <Heading1>Coding Tech Writer</Heading1>
       <Typography>
         For 8 years, I worked as a tech writer in small and large companies
         developing software. Over that time, I gradually discovered the world of
