@@ -5,8 +5,8 @@ import ReadPage from '../components/ReadPage';
 export default function Read(): JSX.Element {
   return (
     <Layout
-      title="Czytelnia"
-      description="Artykuły, poradniki i inne teksty w służbie technical writingu"
+      title="Artykuły"
+      description="Wybierz coś do poczytania"
     >
       <ReadPage />
     </Layout>

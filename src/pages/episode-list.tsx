@@ -41,8 +41,8 @@ export default function EpisodeList() {
 
   return (
     <Layout
-      title={`Lista odcinków`}
-      description="Wybierz odcinek podcastu do posłuchania"
+      title="Podcast"
+      description="Wybierz odcinek do posłuchania"
     >
       <Container>
         <Stack spacing={4} paddingTop={4} paddingBottom={4}>

@@ -4,8 +4,8 @@ import MultimediaPage from '../components/MultimediaPage';
 export default function Multimedia() {
   return (
     <Layout
-      title="Multimedia"
-      description="Wystąpienia, screencasty, webinary, podcasty i inne materiały dla Tech Writerów"
+      title="Wystąpienia"
+      description="Zobacz wystąpienia, prezentacje i gościnny udział w podcastach"
     >
       <MultimediaPage />
     </Layout>
