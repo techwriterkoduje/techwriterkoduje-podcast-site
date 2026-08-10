@@ -80,7 +80,7 @@ export default function EnglishPage() {
       </Typography>
       <HostPics hosts={hosts} size="medium" />
       <Typography>
-        Tech Writer Koduje (Tech Writer Who Codes) is a project in Polish, but
+        Tech Writer Koduje (Coding Tech Writer) is a project in Polish, but
         there are a few things available in English.
       </Typography>
       <LinkList links={links} />
