@@ -28,6 +28,11 @@ const shoutOutLinks: ShoutOutLink[] = [
     label: 'Techwriter.pl',
     href: 'http://techwriter.pl/',
   },
+  {
+    img: 'dredar-logo.png',
+    label: 'DREDAR',
+    href: 'https://dredar.com/',
+  },
 ];
 
 export default function ShoutOuts() {
